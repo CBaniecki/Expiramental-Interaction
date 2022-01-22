@@ -5,8 +5,11 @@ function setup () {
 function draw(){
     background("#DC143C");
 
-    fill(255);
-    rect(200,mouseX, 100,100);
+    push()
+    translate(mouseX);
+    rotate(mouseX/200);
+    rect(200,200, 100,100);
+    pop();
  
 }
 
