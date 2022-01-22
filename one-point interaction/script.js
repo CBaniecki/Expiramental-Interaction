@@ -1,13 +1,13 @@
 function setup () {
     createCanvas(800,800);
-    background("#DC143C");
 }
 
 function draw(){
+    background("#DC143C");
+
     fill(255);
-    rect(200,100, 100,100);
+    rect(200,mouseX, 100,100);
+ 
 }
 
-if(mouseIsPressed){
-    rect(300,200,100,100);
-}
+
