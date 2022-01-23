@@ -3,25 +3,24 @@
     "purchases": [
 
         {
-            "month":[ "december"
-            ],
-            "store": "amazon",
-            "price":"twenty-five dollars"
+            "month": "december",
+            "store": [ "amazon", "twenty dollars"
+            ]
+          
         },
 
         { 
-            "month": [ "december"
+            "month":  "december",
+            "store": ["milestone books","twenty-five dollars"
             ],
-            "store": "milestone books",
             "price": "thirty-dollars"
         },
 
         {
-            "month": [ "december"
-            ],
-            "store": "l'occitaine",
-            "price": "twenty-dollars"
-
+            "month":  "december"
+            ,
+            "store":[ "l'occitaine","twenty-dollars"
+            ]
         }
     ]
 }
