@@ -1,6 +1,27 @@
+
 {
-    "store": "amazon",
-    "r": 255,
-    "g": 200,
-    "b": 0
+    "purchases": [
+
+        {
+            "month":[ "december"
+            ],
+            "store": "amazon",
+            "price":"twenty-five dollars"
+        },
+
+        { 
+            "month": [ "december"
+            ],
+            "store": "milestone books",
+            "price": "thirty-dollars"
+        },
+
+        {
+            "month": [ "december"
+            ],
+            "store": "l'occitaine",
+            "price": "twenty-dollars"
+
+        }
+    ]
 }
