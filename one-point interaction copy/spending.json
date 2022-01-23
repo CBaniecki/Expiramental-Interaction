@@ -12,15 +12,30 @@
         { 
             "month":  "december",
             "store": ["milestone books","twenty-five dollars"
-            ],
-            "price": "thirty-dollars"
+            ]
         },
 
         {
-            "month":  "december"
-            ,
+            "month":  "december",
             "store":[ "l'occitaine","twenty-dollars"
             ]
+        },
+
+
+        {
+            "month": "november",
+            "store":[ "amazon" , "eighteen-dollars"
+
+            ]
+        },
+
+        { 
+            "month": "november",
+            "store": [ "ebay", "thirty-dollars"
+            ]
+
         }
+
     ]
+
 }
