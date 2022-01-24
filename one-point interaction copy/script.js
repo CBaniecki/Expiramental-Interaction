@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup(){
-    createCanvas(10,10);
+    createCanvas(0,0);
 
     var spending = money.purchases;
 
