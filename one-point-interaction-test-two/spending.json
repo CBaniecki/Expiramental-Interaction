@@ -1,0 +1,58 @@
+
+{
+    "purchases": [
+
+        {
+            "month": "december",
+            "store": [ "amazon", "twenty dollars"
+            ]
+          
+        },
+
+        { 
+            "month":  "december",
+            "store": ["milestone books","twenty five dollars"
+            ]
+        },
+
+        {
+            "month":  "december",
+            "store":[ "l'occitaine","twenty dollars"
+            ]
+        },
+
+
+        {
+            "month": "november",
+            "store":[ "amazon" , "eighteen dollars"
+
+            ]
+        },
+
+        { 
+            "month": "november",
+            "store": [ "ebay", "thirty dollars"
+            ]
+
+        },
+
+        {
+            "month": "november",
+            "store": [ "fanprint shirts", "twenty-eight dollars"
+
+            ]
+        },
+
+        {
+            "month": "october",
+            "store": [ "overstock", "fourteen dollars"
+            ]
+        },
+
+        {
+            "month": "october",
+            "store": [ "overstock", "thirty-six dollars"
+            ]
+        }
+    ]
+}
