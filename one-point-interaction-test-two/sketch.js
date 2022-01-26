@@ -1,10 +1,14 @@
 var money;
 
+
 function preload(){
     money = loadJSON("spending.json");
 }
 
+
+
 function setup(){
+    createP()
     
     var spending = money.purchases;
 
@@ -15,6 +19,14 @@ function setup(){
             createDiv(store[j]);
         }
     }
+
 }
-function draw(){
+function mousePressed(){
+    var spending = money.purchases;
+
+    for(let i = 0; i< spending.length; i++){
+        if(spending[i].contains(mouseX, mouseY)){
+            spending.splice(i,1);
+        }
+    }
 }
