@@ -1,0 +1,17 @@
+html{
+    background: rgb(184, 184, 238);
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: black ;
+}
+h3{
+    color: rgb(44, 44, 44);
+}
+p{
+    font-family: sans-serif;
+}
