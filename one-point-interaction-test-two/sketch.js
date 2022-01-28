@@ -9,6 +9,7 @@ function preload(){
 
 function setup(){
     createP()
+    noCanvas()
     
     var spending = money.purchases;
 
@@ -21,12 +22,11 @@ function setup(){
     }
 
 }
-function mousePressed(){
-    var spending = money.purchases;
 
-    for(let i = 0; i< spending.length; i++){
-        if(spending[i].contains(mouseX, mouseY)){
-            spending.splice(i,1);
-        }
-    }
+function draw(){
+
+var spending = money.purchases;
+    spending.splice(1);
+     
 }
+
