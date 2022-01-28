@@ -5,7 +5,10 @@
         {
             "month": "december",
             "store": [ "amazon", "twenty dollars"
-            ]
+            ],
+            "r":"239",
+            "g":"222",
+            "b":"205"
           
         },
 
