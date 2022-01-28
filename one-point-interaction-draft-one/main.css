@@ -1,0 +1,21 @@
+h1{
+    color:rgb(0, 0, 0);
+    text-align: left;
+}
+h2{
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 30px;
+}
+
+div{
+    color: rgb(0, 0, 0);
+    text-align: right;
+    background: white;
+    margin: 0px;
+    padding:5px;
+}
+
+html{
+    background-color: rgb(164, 226, 255);
+}
