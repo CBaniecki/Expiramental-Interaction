@@ -26,7 +26,7 @@ function setup(){
 function draw(){
 
 var spending = money.purchases;
-    spending.splice(1);
+    spending.pop(1);
      
 }
 
