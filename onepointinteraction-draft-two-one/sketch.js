@@ -15,12 +15,18 @@ function draw(){
     textSize(15);
     text('lavender lotion', 700, 200);
 
+    textSize(15);
+    text('gift cards', 500, 270);
+
 
     textSize(20);
     text('october',100,130);
 
     textSize(15);
     text('picture frames', 60, 200);
+
+    textSize(15);
+    text('printer ink', 200, 200);
 
 
 
@@ -32,7 +38,5 @@ function draw(){
 
     textSize(15);
     text('pandora charm', 200, 570);
-
-    
 
 }
