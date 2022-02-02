@@ -9,9 +9,19 @@ function setup(){
 function draw(){
     background(0);
     
-    //fill(255);
+    fill(0,0, 255);
+    noStroke();
+    rect(0,0,200,600);
+    
+    
+    textSize(20);
+    fill(255);
     text('savings', 100,slider.value());
+    text('spending', 400, slider.value())
 
-    rect(0,130,200,200)
-    fill("#ADD8E6");
+    text('80%', 400, 200);
+    text('20%', 100, 200);
+
+
+    
 }
