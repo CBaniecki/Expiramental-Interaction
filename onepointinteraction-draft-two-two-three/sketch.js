@@ -6,9 +6,9 @@ var products = [
     "Blanket"
 ];
 
-//const display = [
-//    products.push("Hello")
-//];
+//products.push("Hello")
+
+var display = []
 
 //console.log(display);
 
@@ -26,20 +26,24 @@ function draw(){
     
     fill(255);
     textSize(20);
-    text(products[2], 200,200);
+    text(products[2], 250,200);
     text(products[0], 300, 400);
     text(products[1], 350, 250);
     text(products[3], 400, 100);
+    text(display[0], 50, 100);
+    text(display[1], 50, 130);
 
-   // text(display[0], 200, 100);
-
-    //stroke(0);
-    //noFill();
-    //rect(50, 50, 100,300);
+    stroke(255);
+    noFill();
+    rect(30, 40, 150,300);
 }
 
 function mousePressed(){
-    products.pop();
+    products.pop()
+    display.push("Blanket")
+    display.push("Candy")
+    //display.push("Jacket")
+    //display.push("Shirt")
 }
 
-
+//console.log(display);
