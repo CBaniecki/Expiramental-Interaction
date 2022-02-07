@@ -33,11 +33,9 @@ function setup(){
 
 
 function draw(){
+   
     var currentTime = millis();
 
-
-
-   
 
     background(250, 0, 0);
 
@@ -53,7 +51,7 @@ function draw(){
     //rect( 230, 320, 180, 75);
     //rect( 455, 320, 160, 75);
 
-    fill(value);
+    fill(255);
     rect(20, 40, 190,450);
 
    
@@ -104,10 +102,19 @@ function draw(){
     }
 }
 
-function keyPressed(){
- if(value === 255) {
-    value = 0;
- }
 
+function mousePressed(){
 }
+
+
+
+
+
+
+//function keyPressed(){
+// if(value === 255) {
+//    value = 0;
+// }
+
+//}
 
