@@ -22,11 +22,16 @@ var items = [];
 
 function preload(){
     items[0] = loadImage('images/teddybear.jpeg');
+    items[1] = loadImage('images/blanket.jpeg');
+    items[2] = loadImage('images/jacket.jpeg');
+    items[3] = loadImage('images/caramel-popcorn.jpeg');
+    items[4] = loadImage('images/licorice.jpeg');
 }
 
 
+
 function setup(){
-    createCanvas(650,600);
+    createCanvas(950,800);
 
 }
 
@@ -35,6 +40,11 @@ function setup(){
 function draw(){
    
     var currentTime = millis();
+
+
+    //if(mouseIsPressed=== true){
+    //  value = 0;
+    //}
 
 
     background(250, 0, 0);
@@ -51,6 +61,7 @@ function draw(){
     //rect( 230, 320, 180, 75);
     //rect( 455, 320, 160, 75);
 
+
     fill(255);
     rect(20, 40, 190,450);
 
@@ -60,7 +71,12 @@ function draw(){
     noStroke()
     textSize(20);
 
-    image(items[0], 395,260, 120, 100);
+    image(items[0], 500,260,150,130);
+    image(items[1], 590,190,150,140);
+    image(items[2], 650, 313,180,270);
+    image(items[3], 410, 390, 240,200);
+    image(items[4], 340, 100, 260, 160);
+    //image()
 
     //text(products[0], 395, 260);
     //text(products[2], 250, 160);
@@ -105,8 +121,6 @@ function draw(){
 
 function mousePressed(){
 }
-
-
 
 
 
