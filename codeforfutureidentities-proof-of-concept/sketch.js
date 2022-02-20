@@ -42,6 +42,7 @@ function draw() {
          point(i, y,);
     }
 
+    // I was trying to replicate the bouncing ball tutorial where if the length is greater than the width it moves the other direction/moves to a different location on the canvas
    // if (volhistory.length > width) {
      //  var y= map(volhistory[i], 0, 1, height, 0);
     //}
