@@ -11,6 +11,10 @@ function draw() {
     background(0)
     var vol = mic.getLevel();
 
+
+
+
+
     stroke(255);
     //fill(vol*255);
     noFill();
@@ -19,7 +23,12 @@ function draw() {
     ellipse(100, vol*200, 300,300);
     ellipse(200, 400, 300,300);
     ellipse(650,540, 240,240);
+    ellipse(200, 200, vol*255, vol* 255);
+
     //console.log(vol);
+
+
+    
 
     //for (let i = 0; i< 6; i++) {
     //      stroke(255);
