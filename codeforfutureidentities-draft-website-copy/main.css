@@ -87,3 +87,12 @@ img{
    display: inline-block;
    background-color:white;
 }
+.subscription-btn{
+    padding: 10px 10px;
+    align-items: center;
+
+}
+
+.flat-list img{
+    max-height: 400px;
+}
