@@ -96,3 +96,12 @@ img{
 .flat-list img{
     max-height: 400px;
 }
+
+.extension img{
+    max-height: 600px;
+    padding: 2px 520px;
+}
+
+.music-visual .button{
+padding: 20px 30px 30px 30px;
+}
