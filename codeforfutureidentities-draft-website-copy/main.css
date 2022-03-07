@@ -35,15 +35,20 @@
 }
 
 .main-landing{
-    margin: 0;
-    height: 100hz;
+    position:relative;
+    text-align: center;
+    background-image: url(images/calming-music.jpeg);
 }
 
-.main-landing img{
-    background-repeat: no-repeat;
-    max-width: 100%;
-    margin:0;
+.text{
+    position: absolute;
+    top:8px;
+    left:16px;
+
 }
+
+
+
 
 .flat-list{
     display: flex;
