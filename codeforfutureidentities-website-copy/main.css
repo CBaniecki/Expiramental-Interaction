@@ -54,7 +54,7 @@ h3, h4 {
 
 .main-landing{
     margin: 0;
-    background-image:url(images/music-visualization-code.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.459)),url(images/music-visualization-code.png);
     background-size: cover;
     max-width: 100%;
 }
@@ -64,12 +64,20 @@ h3, h4 {
     text-align: left;
     padding-top: 200px;
     padding-left: 100px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .text p{
     font-size: 25px;
-    padding-right:520px;
+    padding-right:650px;
+    letter-spacing: .8px;
+
+}
+
+.text h2{
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 35px;
 }
 
 img{
