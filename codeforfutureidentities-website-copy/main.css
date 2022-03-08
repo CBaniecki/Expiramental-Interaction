@@ -13,10 +13,16 @@ h3{
     text-align: center;
     font-size: 25px;
     padding: 15px;
+
 }
 
 h4{
     font-size: 18px;
+    letter-spacing: .4px;
+}
+
+h3, h4 {
+    color: rgba(17, 58, 105, 0.808);
 }
 
 .navbar {
@@ -53,7 +59,6 @@ h4{
     max-width: 100%;
 }
 
-
 .text{
     height: 700px;
     text-align: left;
@@ -61,7 +66,6 @@ h4{
     padding-left: 100px;
     color: white;
 }
-
 
 .text p{
     font-size: 25px;
@@ -105,7 +109,7 @@ img{
 
 .flat-list{
     display: flex;
-    padding: 1rem 10rem 1rem 15rem;
+    padding: .5rem 10rem .5rem 15rem;
 }
 
 .flat-list img{
@@ -117,3 +121,5 @@ img{
 .music-resource{
     padding: 1.5rem;
 }
+
+
