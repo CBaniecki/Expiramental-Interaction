@@ -25,6 +25,10 @@ h3, h4 {
     color: rgba(17, 58, 105, 0.808);
 }
 
+p{
+    font-family: sans-serif;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -101,7 +105,7 @@ img{
 }
 
 .resources-content p{
-    padding-right: 200px;
+    padding-right: 180px;
     padding-bottom:20px;
     font-size: 18px;
 }
