@@ -69,10 +69,11 @@ p{
     padding-top: 200px;
     padding-left: 100px;
     color: rgb(255, 255, 255);
+    font-size: 15px;
 }
 
 .text p{
-    font-size: 25px;
+    font-size: 24px;
     padding-right:650px;
     letter-spacing: .8px;
 
@@ -80,7 +81,7 @@ p{
 
 .text h2{
     padding-bottom: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     font-size: 35px;
 }
 
