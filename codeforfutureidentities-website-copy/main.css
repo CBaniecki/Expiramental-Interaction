@@ -12,7 +12,11 @@ a {
 h3{
     text-align: center;
     font-size: 25px;
-    padding: 20px ;
+    padding: 15px;
+}
+
+h4{
+    font-size: 18px;
 }
 
 .navbar {
@@ -64,16 +68,6 @@ h3{
     padding-right:520px;
 }
 
-
-.flat-list{
-    display: flex;
-    list-style:none;
-    padding-left:0;
-    max-width: 75rem;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
 img{
     max-width: 100%;
 }
@@ -100,7 +94,6 @@ img{
     font-size: 18px;
 }
 
-
 .button{
    padding: 15px 32px;
    text-align:center;
@@ -108,4 +101,19 @@ img{
    background-color:rgb(231, 230, 230);
    text-decoration: none;
    color:black;
+}
+
+.flat-list{
+    display: flex;
+    padding: 1rem 10rem 1rem 15rem;
+}
+
+.flat-list img{
+    max-width: 60%;
+    max-height: 80%;
+    padding-bottom: 2rem;
+}
+
+.music-resource{
+    padding: 1.5rem;
 }
