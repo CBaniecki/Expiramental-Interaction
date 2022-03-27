@@ -12,7 +12,6 @@ a {
 h3{
     text-align: center;
     font-size: 25px;
-
 }
 
 h4 {
@@ -49,7 +48,6 @@ p{
     margin:0;
     letter-spacing: 1px;
     font-family: 'Cormorant Garamond', serif;
-
 }
 
 .main-landing{
@@ -92,7 +90,6 @@ p{
     left:0;
     height: 200px;
     width: 100%;
-
 }
 
 img{
@@ -119,8 +116,7 @@ img{
     letter-spacing: 1px;
     font-weight: 500;
     font-family: 'Cormorant Garamond', serif;
-    font-weight: 500;
-    
+    font-weight: 500;  
 }
 
 .resources-content{
@@ -144,7 +140,6 @@ img{
     padding-top: 20px;
     padding-bottom: 5px;
     color: rgb(33, 51, 71);
-
 }
 
 .resources-icons a{
@@ -152,7 +147,6 @@ img{
     font-size: 20px;
     letter-spacing: .5px;
     color: rgb(33, 51, 71);
-
 }
 
 .button{
@@ -183,7 +177,6 @@ img{
 
 .subscription-section{
     background-color: rgb(17, 58, 105);
-
 }
 
 .subscription-section p{
