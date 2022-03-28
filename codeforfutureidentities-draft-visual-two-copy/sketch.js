@@ -15,9 +15,6 @@ function toggleSong(){
     }
 }
 
-
-
-
 function setup(){
  cnv = createCanvas(1400,800);
  
@@ -42,8 +39,6 @@ function draw() {
         var y = map(volhistory[i], 0,1, 150, 0);
          point(i, y, 100);
     }
-
-
 
     for(var i = 0; i < volhistory.length; i++){
       var y = map(volhistory[i], 0,1, height/2, 0);

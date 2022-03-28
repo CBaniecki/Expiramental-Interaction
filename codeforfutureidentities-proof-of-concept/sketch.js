@@ -15,8 +15,6 @@ function toggleSong(){
     }
 }
 
-
-
 function setup(){
  cnv = createCanvas(800,800);
  
