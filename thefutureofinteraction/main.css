@@ -73,7 +73,6 @@ strong{
     color: rgb(255, 255, 255);
     font-size: 15px;
     z-index: 1;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.459));
 }
 
 .text p{
@@ -117,42 +116,33 @@ img{
     padding: 3rem;
     color:black;
     display: flex;
-    background-color: rgb(26, 158, 147);
     color:white;
-
 }
 
 .information-section{
     padding-bottom: 20px;
+    padding-top: 130px;
     font-size: 35px;
     letter-spacing: 1px;
     font-family: 'Assistant', sans-serif;
     font-weight: 500;  
+    background-color: rgb(26, 158, 147);
+
 }
 
-.information-section{
-    padding-top: 130px;
-}
 
 .information-section p{
     padding-right: 180px;
-    padding-bottom:20px;
+    padding-bottom:.5px;
     font-size: 20px;
 }
-
-.experience{
-    background-color: #d8e5f2;
-    color: rgb(56, 87, 122);
-    padding: 3rem;
-
-}
-
 
 .resources-icons{
     background-color: rgba(17, 58, 105, 0.808);
     color:white;
     font-weight: 500;
-
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .resources-icons h3{
@@ -160,21 +150,12 @@ img{
     text-align: center;
     font-size: 35px;
     letter-spacing: 1px;
-    padding-top: 20px;
-    padding-bottom: 5px;
     color: white;
 }
 
 .resources-icons h4{
-    font-size: 20px;
+    font-size: 35px;
     letter-spacing: 1px;
-}
-
-.resources-icons a{
-    font-family: 'Proza Libre', sans-serif;    
-    font-size: 20px;
-    letter-spacing: .5px;
-    color: rgb(33, 51, 71);
 }
 
 .button{
