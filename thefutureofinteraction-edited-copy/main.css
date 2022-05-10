@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+
+h3,h4 {
+    font-family: 'Assistant',sans-serif;
+    font-weight: 600;
+
+}
+
+p{
+    font-family: 'Assistant', sans-serif;
+}
+
+strong{
+    color:rgb(65, 162, 253);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(17, 58, 105, 0.808);
+    color:white;
+}
+
+.nav-list{
+    list-style: none; 
+}
+
+.nav-list li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: 'Assistant', sans-serif;    
+    font-size: 20px;
+    letter-spacing: .4px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.site-name{
+    font-size: 2rem;
+    margin:0;
+    letter-spacing: 1px;
+    font-family: 'Assistant', serif;
+    font-weight: 600;
+}
+
+
+.main-landing{
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  overflow: hidden;
+}
+
+.text{
+    height: 700px;
+    text-align: left;
+    padding-top: 160px;
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    z-index: 1;
+}
+
+.text p{
+    font-size: 20px;
+    padding-right:550px;
+    letter-spacing: .8px;
+    line-height: 50px;
+    font-weight: 400;
+    
+}
+
+.text h2{
+    padding-bottom: 20px;
+    letter-spacing: 1.5px;
+    font-size: 76px;
+    font-weight: 400;
+    font-family: 'Assistant', serif;
+    font-weight: 400;
+}
+
+.video-container{
+    position:absolute;
+    top:-15%;
+    left:-10%;
+    height: 200px;
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.music-visualization-section{
+    background-color: rgb(56, 87, 122);
+}
+
+.music-visualization-section p{
+    color:white;
+}
+
+.information{
+    padding: 3rem;
+    color:black;
+    display: flex;
+    background-color: rgb(26, 158, 147);
+    color:white;
+
+}
+
+.information-section{
+    padding-bottom: 20px;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 500;  
+}
+
+.information-section{
+    padding-top: 130px;
+}
+
+.information-section p{
+    padding-right: 180px;
+    padding-bottom:20px;
+    font-size: 20px;
+}
+
+.experience{
+    background-color: #d8e5f2;
+    color: rgb(56, 87, 122);
+    padding: 3rem;
+
+}
+
+
+.resources-icons{
+    background-color: rgba(17, 58, 105, 0.808);
+    color:white;
+    font-weight: 500;
+
+}
+
+.resources-icons h3{
+    font-weight: 600;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.resources-icons h4{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.resources-icons a{
+    font-family: 'Proza Libre', sans-serif;    
+    font-size: 20px;
+    letter-spacing: .5px;
+    color: rgb(33, 51, 71);
+}
+
+.button{
+   padding: 15px 32px;
+   text-align:center;
+   display: inline-block;
+   background-color:rgb(172, 227, 238);
+   text-decoration: none;
+   color:black;
+   letter-spacing: .5px;
+}
+
+.flat-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3px 5px;
+}
+
+.flat-list img{
+    max-width: 60%;
+    max-height: 80%;
+    padding-bottom: 2rem;
+}
+
+.music-resource{
+    padding: 1.5rem;
+}
+
+.subscription-section{
+    background-color: rgb(17, 58, 105);
+}
+
+.subscription-section p{
+    color:white;
+}
+
+.subscription-section h4{
+  color: rgb(105, 230, 255);
+}
+
+.extension-section h4{
+    color: rgba(12, 65, 124, 0.747);
+}
+
+.extension-section p{
+    color: rgba(12, 65, 124, 0.747);
+}
