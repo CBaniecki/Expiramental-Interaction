@@ -192,6 +192,13 @@ img{
     padding: .5rem 5rem .5rem 10rem;
 }
 
+.flat-list h4{
+    font-size: 22px;
+}
+
+.flat-list p{
+    font-size: 18px;
+}
 .flat-list img{
     max-width: 60%;
     max-height: 80%;
